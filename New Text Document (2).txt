@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 Will You Go on a Date with Me on December 31st? 💖</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            background-color: #ffdce5; /* Light pink background */
+            color: #ff69b4; /* Pink text color */
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #ff1493; /* Darker pink for the title */
+        }
+
+        #yes-button, #no-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #ff69b4; /* Pink button background */
+            color: #fff; /* White text color */
+            border: none;
+            border-radius: 5px;
+        }
+
+        #yes-button:hover, #no-button:hover {
+            background-color: #ff1493; /* Darker pink on hover */
+        }
+
+        #happy-cat, #sad-cat {
+            display: none;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <h1>💖 Will You Go on a Date with Me on December 31st? 💖</h1>
+    
+    <button id="yes-button" onclick="showCat('happy-cat')">Yes</button>
+    <button id="no-button" onclick="showCat('sad-cat')">No</button>
+
+    <img id="happy-cat" src="happy-cat-image-url.jpg" alt="Happy Cat" width="200">
+    <img id="sad-cat" src="sad-cat-image-url.jpg" alt="Sad Cat" width="200">
+</div>
+
+<script>
+    function showCat(catId) {
+        document.getElementById('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FHappycats%2Fcomments%2Fhrnaoa%2Fcute_happy_cat_enjoy%2F&psig=AOvVaw19NTvE6f4N_5Eg8tPqKxRX&ust=1703683022036000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMCEnoGYrYMDFQAAAAAdAAAAABAD').style.display = 'none';
+        document.getElementById('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Fwhimsical-cat-art-funky-illustration-for-international-cat-days-pet-bandana-for-sale-by-tarocreative-in-2023--609463762098441869%2F&psig=AOvVaw1gZjFpmxHnUA2qnCrWYkfQ&ust=1703683054580000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPDH-ZGYrYMDFQAAAAAdAAAAABAD').style.display = 'none';
+
+        document.getElementById(catId).style.display = 'block';
+    }
+</script>
+
+</body>
+</html>
